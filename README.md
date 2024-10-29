@@ -1,3 +1,1 @@
 # tasks-flask-crud
-
-# teste
