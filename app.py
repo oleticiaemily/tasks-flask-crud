@@ -28,7 +28,7 @@ def create_task():
   print(tasks)
   
   # Retorna uma mensagem de sucesso em formato JSON
-  return jsonify({"message": "Nova tarefa criada com sucesso"})
+  return jsonify({"message": "Nova tarefa criada com sucesso", "id": new_task.id})
 
 
 # Rota para listar todas as tarefas
